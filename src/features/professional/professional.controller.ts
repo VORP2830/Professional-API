@@ -14,7 +14,7 @@ import { PageParams, PageList } from 'src/shared/pagination';
 import { ProfessionalFilter } from './professional.filter';
 import { ProfessionalDto } from './professional.dto';
 
-@Controller('professionals')
+@Controller('api/professional')
 export class ProfessionalController {
     constructor(private readonly professionalService: ProfessionalService) { }
 
